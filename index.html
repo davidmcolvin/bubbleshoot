@@ -12,34 +12,34 @@
 	loaded = !!window.jQuery;
 	if (loaded === false)
 	{
-		console.log("thisis false");
-		document.write('<script src="_js/jquery-3.5.1.min.js"><\/script>')
+	console.log("thisis false");
+	document.write('<script src="_js/jquery-3.5.1.min.js"><\/script>')
 	}
 </script>
 <script src="_js/ui.js"></script>
 <script src="_js/bubble.js"></script>
 <script src="_js/game.js"></script>
 <script>$(function() {
-		var game = new BubbleShoot.Game();
-		game.init();
+	var game = new BubbleShoot.Game();
+	game.init();
 	}) 
 </script>
 </head>
 <body>
 	<div id="page">
-		<div id="top_bar"></div>
-    <div id="game">
-    	<div id="board"></div>
-    </div>
-    <div id="footer_bar"></div>
-    <div id="start_game" class="dialog">
-      <div id="start_game_message">
-      <h2>Start a new game</h2>
-      </div>
-      <div class="but_start_game button">
-        New Game
-      </div>
-    </div>
+	<div id="top_bar"></div>
+	<div id="game">
+		<div id="board"></div>
+	</div>
+	<div id="footer_bar"></div>
+	<div id="start_game" class="dialog">
+		<div id="start_game_message">
+		<h2>Start a new game</h2>
+		</div>
+		<div class="but_start_game button">
+		New Game
+		</div>
+	</div>
 	</div>
 </body>
 </html>
