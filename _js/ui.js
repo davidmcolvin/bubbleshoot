@@ -14,7 +14,6 @@ BubbleShoot.ui = (function($){
 			return coords;
 		},
 		getBubbleCoords : function(bubble){
-			debugger;
 			var bubbleCoords = bubble.position();
 			bubbleCoords.left += ui.BUBBLE_DIMS / 2;
 			bubbleCoords.top += ui.BUBBLE_DIMS / 2;
