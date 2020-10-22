@@ -57,7 +57,7 @@ BubbleShoot.CollisionDetector = (function($)
 							}
 							else 
 							{
-								var distToCollsion = distToCollision2;
+								var distToCollision = distToCollision2;
 								var dest = {
 									x : -offset2.x + start.left,
 									y : offset2.y + start.top

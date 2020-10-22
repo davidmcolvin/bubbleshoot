@@ -29,6 +29,7 @@ BubbleShoot.Game = (function($) {
 			{
 				var coords = collision.coords;
 				duration = Math.round(duration * collision.distToCollision/distance);
+				board.addBubble(curBubble,coords);
 			}
 			else
 			{
